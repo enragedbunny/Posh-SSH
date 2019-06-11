@@ -1,6 +1,6 @@
 ---
 external help file: Posh-SSH.psm1-Help.xml
-online version: 
+online version: https://github.com/darkoperator/Posh-SSH/tree/master/docs
 schema: 2.0.0
 ---
 
@@ -66,8 +66,9 @@ Accept wildcard characters: False
 
 ### -ContentType
 How should the content be retured for the file being read. 
-* Byte - returns a byte array. 
-* MultiLine - Retuns a string array where each element represents a line in the file. 
+* Byte - returns a byte array.
+
+* MultiLine - Retuns a string array where each element represents a line in the file.
 * String - returns a string with all the contents of the file.
 
 ```yaml
